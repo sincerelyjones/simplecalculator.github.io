@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: url(../image/bg.png);
+    background-size: cover;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border: 10px solid rgb(0, 250, 229);
+    border-radius: 25px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 6px solid #e5004a;
+    display: flex;
+    margin: auto;
+    border-radius: 25px;
+    color: black;
+ }
+ .btn input[type='button'] {
+    width: 90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.5s;
+    border-radius: 25px;
+    color: white;
+    background: url(../image/moon.jpg) -26px -20px;
+    background-size: cover;
+}
+ .btn input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
